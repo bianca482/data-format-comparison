@@ -19,3 +19,5 @@ For each use case, the first image shows the three data formats that produced th
 ![Three most space efficient data formats](/images/top3_size.png)
 
 ![Three data formats with fastest serialization speed](/images/top3_speed.png)
+
+The ImageData use case has been analyzed separately because of the significant difference in space requirements and serialization speed to the other use cases. The results for this use case are visualized in the notebooks mentioned above.
