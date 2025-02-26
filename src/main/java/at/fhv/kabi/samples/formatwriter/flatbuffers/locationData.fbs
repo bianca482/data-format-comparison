@@ -1,0 +1,18 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table Geometry_FB {
+    type: string;
+    coordinates: [double];
+}
+
+table Location_FB {
+    type: string;
+    geometry: Geometry_FB;
+}
+
+table LocationData_FB {
+    name: string;
+    description: string;
+    encoding_type: string;
+    location: Location_FB;
+}

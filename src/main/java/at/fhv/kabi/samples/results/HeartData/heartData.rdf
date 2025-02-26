@@ -1,0 +1,34 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:body>
+      <rdf:Description rdf:about="http://a/Body">
+        <j.0:series>
+          <rdf:Description rdf:about="http://a/Series">
+            <j.0:bloodpressure>
+              <rdf:Description rdf:about="http://a/BloodPressure">
+                <j.0:systole>101</j.0:systole>
+                <j.0:diastole>100</j.0:diastole>
+              </rdf:Description>
+            </j.0:bloodpressure>
+            <j.0:ecg>
+              <rdf:Description rdf:about="http://a/Ecg">
+                <j.0:afib>1</j.0:afib>
+                <j.0:signalid>48</j.0:signalid>
+              </rdf:Description>
+            </j.0:ecg>
+            <j.0:timezone>Europe/Paris</j.0:timezone>
+            <j.0:timestamp>1594159644</j.0:timestamp>
+            <j.0:heartRate>82</j.0:heartRate>
+            <j.0:model>44</j.0:model>
+            <j.0:deviceid>892359876fd8805ac45bab078c4828692f0276b1</j.0:deviceid>
+          </rdf:Description>
+        </j.0:series>
+        <j.0:offset>0</j.0:offset>
+        <j.0:more>true</j.0:more>
+      </rdf:Description>
+    </j.0:body>
+    <j.0:status>0</j.0:status>
+  </rdf:Description>
+</rdf:RDF>

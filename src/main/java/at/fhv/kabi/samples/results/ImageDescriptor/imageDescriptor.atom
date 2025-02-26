@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ImageDescriptor</title>
+  <id>urn:uuid:1</id>
+  <updated>2025-02-14T10:12:26Z</updated>
+  <entry>
+    <title>ImageDescriptor</title>
+    <author />
+    <id>urn:uuid:1</id>
+    <updated>2025-02-14T10:12:26Z</updated>
+    <content type="text">{"title":"example","description":"","type":"JPEG","url":"https://www.sample.at","width":1920,"height":1080,"tags":["outdoor","nature"]}</content>
+  </entry>
+</feed>

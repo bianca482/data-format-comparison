@@ -1,0 +1,28 @@
+Data Formats,Median Serialization Speed Rank,Usage Complexity,Usage Complexity Plus
+Cap'n (unpacked),1.0,9,10
+TLV,3.0,5,6
+JSON,3.0,0,1
+Smile,5.0,0,1
+Protobuf,5.0,0,1
+CSV (header),7.0,0,1
+TOML,7.0,0,1
+XDR,8.0,4,5
+XML,9.0,0,1
+MessagePack,10.0,0,1
+CBOR,12.0,0,1
+FlexBuffers,12.0,9,10
+Ion (binary),14.0,0,1
+FlatBuffers,14.0,9,10
+UBJSON,15.0,4,5
+Avro,17.0,7,8
+CSV,17.0,0,1
+Ion,18.0,0,1
+Hessian,19.0,0,1
+Cap'n (packed),21.0,9,10
+Thrift,21.0,9,10
+BSON,22.0,1,2
+YAML,23.0,0,1
+RDF Turtle,25.0,4,5
+INI,26.0,4,5
+RDF,27.0,4,5
+EXI,27.0,5,6

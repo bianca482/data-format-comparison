@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Person</title>
+  <id>urn:uuid:1</id>
+  <updated>2025-02-14T10:12:25Z</updated>
+  <entry>
+    <title>Person</title>
+    <author />
+    <id>urn:uuid:1</id>
+    <updated>2025-02-14T10:12:25Z</updated>
+    <content type="text">{"fn":"John Doe","bday":"1985-05-15","gender":"M","adr":"1234 Elm Street, Springfield, USA","email":"johndoe@example.com","tel":"+1-555-1234","lang":"en","version":"4.0"}</content>
+  </entry>
+</feed>

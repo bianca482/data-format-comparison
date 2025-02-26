@@ -1,0 +1,10 @@
+name: "CCIT"
+description: "Calgary Center for Innvative Technologies"
+encodingType: "application/geo+json"
+location:
+  type: "Feature"
+  geometry:
+    type: "Point"
+    coordinates:
+    - 13.405
+    - 52.522

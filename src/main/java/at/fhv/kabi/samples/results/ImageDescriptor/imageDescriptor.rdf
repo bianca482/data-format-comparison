@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:tags rdf:parseType="Resource">
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>nature</rdf:first>
+      </rdf:rest>
+      <rdf:first>outdoor</rdf:first>
+    </j.0:tags>
+    <j.0:height>1080</j.0:height>
+    <j.0:width>1920</j.0:width>
+    <j.0:url>https://www.sample.at</j.0:url>
+    <j.0:type>JPEG</j.0:type>
+    <j.0:description></j.0:description>
+    <j.0:name>example</j.0:name>
+  </rdf:Description>
+</rdf:RDF>

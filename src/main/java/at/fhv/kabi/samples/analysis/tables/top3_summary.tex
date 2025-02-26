@@ -1,0 +1,36 @@
+\begin{tabular}{lllr}
+    Use Case & Top 3 & File Size & Serialization Speed \\
+    \multirow{3}{*}{HeartData} 
+        & Top 1 & Avro (73) & Cap'n (unpacked) (1.59) \\
+        & Top 2 & Protobuf (80) & JSON (1.99) \\
+        & Top 3 & CSV (95) & TLV (2.48) \\
+    \multirow{3}{*}{HttpResponse} 
+        & Top 1 & Avro (448) & Protobuf (1.07) \\
+        & Top 2 & CSV (459) & Smile (1.15) \\
+        & Top 3 & Protobuf (460) & MessagePack (1.32) \\
+    \multirow{3}{*}{ImageData} 
+        & Top 1 & Avro (861767) & Hessian (174.48) \\
+        & Top 2 & Protobuf (861769) & MessagePack (257.70) \\
+        & Top 3 & XDR (861772) & MessagePack (267.02) \\
+    \multirow{3}{*}{ImageDescriptor} 
+        & Top 1 & Avro (54) & Cap'n (unpacked) (1.31) \\
+        & Top 2 & Protobuf (59) & TLV (2.38) \\
+        & Top 3 & CSV (61) & CSV (header) (2.75) \\
+    \multirow{3}{*}{LocationData} 
+        & Top 1 & Avro (100) & JSON (1.32) \\
+        & Top 2 & CSV (100) &  Cap'n (unpacked) (1.48) \\
+        & Top 3 & Protobuf (105) & TLV (1.52) \\
+    \multirow{3}{*}{Person} 
+        & Top 1 & Avro (95) & Cap'n (unpacked) (1.61) \\
+        & Top 2 & CSV (101) &  CSV (header) (2.81) \\
+        & Top 3 & Protobuf (103) & JSON (5.74) \\
+    \multirow{3}{*}{SensorValue} 
+        & Top 1 & Avro (30) & Cap'n (unpacked) (1.05) \\
+        & Top 2 & CSV (32) &  TLV (2.07) \\
+        & Top 3 & Protobuf (35) & JSON (2.43) \\
+    \multirow{3}{*}{SmartLightController} 
+        & Top 1 & Avro (8) & Cap'n (unpacked) (0.89) \\
+        & Top 2 & Cap'n (packed) (10) & JSON (0.95) \\
+        & Top 3 & Protobuf (11) & TLV (0.98) \\
+    \end{tabular}
+    

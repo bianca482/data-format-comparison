@@ -1,0 +1,4 @@
+thrift -r -out generated --gen java /path/to/service.thrift
+
+.\thrift-0.21.0 -r -out .. --gen java SensorValue.thrift
+

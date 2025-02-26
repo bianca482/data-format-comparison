@@ -1,0 +1,22 @@
+<http://a/Series>  <http://a/bloodpressure>
+                <http://a/BloodPressure>;
+        <http://a/deviceid>       "892359876fd8805ac45bab078c4828692f0276b1";
+        <http://a/ecg>            <http://a/Ecg>;
+        <http://a/heartRate>      "82";
+        <http://a/model>          "44";
+        <http://a/timestamp>      "1594159644";
+        <http://a/timezone>       "Europe/Paris" .
+
+<http://a/>  <http://a/body>  <http://a/Body>;
+        <http://a/status>  "0" .
+
+<http://a/Body>  <http://a/more>  "true";
+        <http://a/offset>  "0";
+        <http://a/series>  <http://a/Series> .
+
+<http://a/BloodPressure>
+        <http://a/diastole>  "100";
+        <http://a/systole>   "101" .
+
+<http://a/Ecg>  <http://a/afib>  "1";
+        <http://a/signalid>  "48" .

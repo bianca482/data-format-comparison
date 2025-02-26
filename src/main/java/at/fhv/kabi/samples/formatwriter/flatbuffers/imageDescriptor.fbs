@@ -1,0 +1,13 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+enum ImageType_FB:int { PNG = 0, JPEG = 1, SVG = 2, GIF = 3, PDF = 4}
+
+table ImageDescriptor_FB {
+    title: string;
+    description: string;
+    type: ImageType_FB;
+    url: string;
+    width: int;
+    height: int;
+    tags: [string];
+}

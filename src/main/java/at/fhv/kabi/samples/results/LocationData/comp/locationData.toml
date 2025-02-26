@@ -1,0 +1,6 @@
+name = 'CCIT'
+description = 'Calgary Center for Innvative Technologies'
+encodingType = 'application/geo+json'
+location.type = 'Feature'
+location.geometry.type = 'Point'
+location.geometry.coordinates = [13.405, 52.522]

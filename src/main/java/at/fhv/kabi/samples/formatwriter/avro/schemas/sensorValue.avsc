@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "SensorValue",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {"name": "deviceId", "type": "string"},
+    {"name": "timestamp", "type": "long"},
+    {"name": "temperature", "type": "double"},
+    {"name": "humidity", "type": "double"}
+  ]
+}

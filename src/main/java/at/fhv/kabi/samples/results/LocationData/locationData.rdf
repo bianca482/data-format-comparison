@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:location>
+      <rdf:Description rdf:about="http://a/location">
+        <j.0:geometry>
+          <rdf:Description rdf:about="http://a/geometry">
+            <j.0:coordinates1>52.522</j.0:coordinates1>
+            <j.0:coordinates0>13.405</j.0:coordinates0>
+            <j.0:type>Point</j.0:type>
+          </rdf:Description>
+        </j.0:geometry>
+        <j.0:type>Feature</j.0:type>
+      </rdf:Description>
+    </j.0:location>
+    <j.0:encodingType>application/geo+json</j.0:encodingType>
+    <j.0:description>Calgary Center for Innvative Technologies</j.0:description>
+    <j.0:name>CCIT</j.0:name>
+  </rdf:Description>
+</rdf:RDF>

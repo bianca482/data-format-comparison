@@ -1,0 +1,7 @@
+<http://a/>  <http://a/description>  "";
+        <http://a/height>       "1080";
+        <http://a/name>         "example";
+        <http://a/tags>         ( "outdoor" "nature" );
+        <http://a/type>         "JPEG";
+        <http://a/url>          "https://www.sample.at";
+        <http://a/width>        "1920" .

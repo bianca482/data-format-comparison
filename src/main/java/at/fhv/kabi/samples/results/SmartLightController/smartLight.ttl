@@ -1,0 +1,4 @@
+<http://a/>  <http://a/bri>  "254";
+        <http://a/hue>  "10000";
+        <http://a/on>   "false";
+        <http://a/sat>  "254" .

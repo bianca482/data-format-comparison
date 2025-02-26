@@ -1,0 +1,10 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table SensorValue_FB {
+  device_id: string;
+  timestamp: long;
+  temperature: double;
+  humidity: double;
+}
+
+root_type SensorValue_FB;

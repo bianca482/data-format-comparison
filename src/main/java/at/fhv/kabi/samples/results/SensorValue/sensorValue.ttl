@@ -1,0 +1,4 @@
+<http://a/>  <http://a/deviceId>  "device1";
+        <http://a/humidity>     "80.2";
+        <http://a/temperature>  "23.1";
+        <http://a/timestamp>    "1728584420000" .

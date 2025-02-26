@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "HeartData",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {
+      "name": "status",
+      "type": "int"
+    },
+    {
+      "name": "body",
+      "type": {
+        "type": "record",
+        "name": "Body",
+        "fields": [
+          {
+            "name": "series",
+            "type": {
+              "type": "array",
+              "items": {
+                "type": "record",
+                "name": "Series",
+                "fields": [
+                  {
+                    "name": "deviceid",
+                    "type": "string"
+                  },
+                  {
+                    "name": "model",
+                    "type": "int"
+                  },
+                  {
+                    "name": "ecg",
+                    "type": {
+                      "type": "record",
+                      "name": "Ecg",
+                      "fields": [
+                        {
+                          "name": "signalid",
+                          "type": "int"
+                        },
+                        {
+                          "name": "afib",
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "bloodpressure",
+                    "type": {
+                      "type": "record",
+                      "name": "BloodPressure",
+                      "fields": [
+                        {
+                          "name": "diastole",
+                          "type": "int"
+                        },
+                        {
+                          "name": "systole",
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heartrate",
+                    "type": "int"
+                  },
+                  {
+                    "name": "timestamp",
+                    "type": "long"
+                  },
+                  {
+                    "name": "timezone",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "more",
+            "type": "boolean"
+          },
+          {
+            "name": "offset",
+            "type": "int"
+          }
+        ]
+      }
+    }
+  ]
+}

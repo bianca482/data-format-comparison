@@ -1,0 +1,10 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table SmartLightController_FB {
+  on: bool;
+  sat: int;
+  bri: int;
+  hue: int;
+}
+
+root_type SmartLightController_FB;

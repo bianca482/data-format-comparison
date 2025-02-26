@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "SmartLightController",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {"name": "on", "type": "boolean"},
+    {"name": "sat", "type": "int"},
+    {"name": "bri", "type": "int"},
+    {"name": "hue", "type": "int"}
+  ]
+}

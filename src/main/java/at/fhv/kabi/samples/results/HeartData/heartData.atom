@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HeartData</title>
+  <id>urn:uuid:1</id>
+  <updated>2025-02-14T10:12:31Z</updated>
+  <entry>
+    <title>HeartData</title>
+    <author />
+    <id>urn:uuid:1</id>
+    <updated>2025-02-14T10:12:31Z</updated>
+    <content type="text">{"status":0,"body":{"series":[{"deviceid":"892359876fd8805ac45bab078c4828692f0276b1","model":44,"ecg":{"signalid":48,"afib":1},"bloodpressure":{"diastole":100,"systole":101},"heartrate":82,"timestamp":1594159644,"timezone":"Europe/Paris"}],"more":true,"offset":0}}</content>
+  </entry>
+</feed>

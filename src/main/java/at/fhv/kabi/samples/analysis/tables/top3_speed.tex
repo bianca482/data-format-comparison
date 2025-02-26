@@ -1,0 +1,27 @@
+\begin{tabular}{lllr}
+ & Use Cases & Data Formats & Serialization Speed \\
+0 & HeartData & Cap'n (unpacked) & 1.59 \\
+1 & HeartData & JSON & 1.99 \\
+2 & HeartData & TLV & 2.48 \\
+0 & HttpResponse & Protobuf & 1.07 \\
+1 & HttpResponse & Smile & 1.15 \\
+2 & HttpResponse & MessagePack & 1.32 \\
+0 & ImageData & Hessian & 174.48 \\
+1 & ImageData & MessagePack & 257.70 \\
+2 & ImageData & XDR & 267.02 \\
+0 & ImageDescriptor & Cap'n (unpacked) & 1.31 \\
+1 & ImageDescriptor & TLV & 2.38 \\
+2 & ImageDescriptor & CSV (header) & 2.75 \\
+0 & LocationData & JSON & 1.32 \\
+1 & LocationData & Cap'n (unpacked) & 1.48 \\
+2 & LocationData & TLV & 1.52 \\
+0 & Person & Cap'n (unpacked) & 1.61 \\
+1 & Person & CSV (header) & 2.81 \\
+2 & Person & JSON & 5.74 \\
+0 & SensorValue & Cap'n (unpacked) & 1.05 \\
+1 & SensorValue & TLV & 2.07 \\
+2 & SensorValue & JSON & 2.43 \\
+0 & SmartLightController & Cap'n (unpacked) & 0.89 \\
+1 & SmartLightController & JSON & 0.95 \\
+2 & SmartLightController & TLV & 0.98 \\
+\end{tabular}

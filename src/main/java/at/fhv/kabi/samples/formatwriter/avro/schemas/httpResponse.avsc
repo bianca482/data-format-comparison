@@ -1,0 +1,25 @@
+{
+  "type": "record",
+  "name": "HttpResponse",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {
+      "name": "statusLine",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "headerLines",
+      "type": {
+        "type": "array",
+        "items": "string"
+      },
+      "default": []
+    },
+    {
+      "name": "responseBody",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

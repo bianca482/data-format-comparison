@@ -1,0 +1,10 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:humidity>80.2</j.0:humidity>
+    <j.0:temperature>23.1</j.0:temperature>
+    <j.0:timestamp>1728584420000</j.0:timestamp>
+    <j.0:deviceId>device1</j.0:deviceId>
+  </rdf:Description>
+</rdf:RDF>

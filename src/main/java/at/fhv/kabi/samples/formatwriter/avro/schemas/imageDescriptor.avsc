@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "Image",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "type",
+      "type": {
+        "type": "enum",
+        "name": "ImageType",
+        "symbols": ["PNG", "JPEG", "SVG", "GIF", "TIFF", "PDF", "XCF", "PSD", "AI"]
+      }
+    },
+    {
+      "name": "url",
+      "type": "string"
+    },
+    {
+      "name": "width",
+      "type": "int"
+    },
+    {
+      "name": "height",
+      "type": "int"
+    },
+    {
+      "name": "tags",
+      "type": {
+        "type": "array",
+        "items": "string"
+      },
+      "default": []
+    }
+  ]
+}

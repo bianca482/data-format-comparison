@@ -1,0 +1,8 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table Image_FB {
+  name: string;
+  image_bytes: [byte];
+}
+
+root_type Image_FB;

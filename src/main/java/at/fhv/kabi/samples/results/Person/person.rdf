@@ -1,0 +1,15 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:version>4.0</j.0:version>
+    <j.0:lang>en</j.0:lang>
+    <vcard:TEL>+1-555-1234</vcard:TEL>
+    <vcard:EMAIL>johndoe@example.com</vcard:EMAIL>
+    <vcard:ADR>1234 Elm Street, Springfield, USA</vcard:ADR>
+    <j.0:gender>M</j.0:gender>
+    <vcard:BDAY>1985-05-15</vcard:BDAY>
+    <vcard:FN>John Doe</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,11 @@
+
+Download compiler: https://capnproto.org/install.html
+Download capnpc java executable: https://dwrensha.github.io/capnproto-java/index.html
+Add maven plugin: https://github.com/expretio/capnp-maven-plugin for automatic file generation
+
+or
+
+manually compile files without plugin:
+
+.\capnp compile -ojava {name}.capnp
+

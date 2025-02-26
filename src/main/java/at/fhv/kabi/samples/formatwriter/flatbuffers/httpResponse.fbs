@@ -1,0 +1,9 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table HttpResponse_FB {
+  statusLine: string;
+  headerLines: [string];
+  responseBody: string;
+}
+
+root_type HttpResponse_FB;

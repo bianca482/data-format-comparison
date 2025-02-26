@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "ImageData",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "imageBytes",
+      "type": "bytes"
+    }
+  ]
+}

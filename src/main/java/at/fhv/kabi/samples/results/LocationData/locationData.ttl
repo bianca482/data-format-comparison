@@ -1,0 +1,13 @@
+<http://a/geometry>  <http://a/coordinates0>
+                "13.405";
+        <http://a/coordinates1>  "52.522";
+        <http://a/type>          "Point" .
+
+<http://a/>  <http://a/description>  "Calgary Center for Innvative Technologies";
+        <http://a/encodingType>  "application/geo+json";
+        <http://a/location>      <http://a/location>;
+        <http://a/name>          "CCIT" .
+
+<http://a/location>  <http://a/geometry>
+                <http://a/geometry>;
+        <http://a/type>      "Feature" .

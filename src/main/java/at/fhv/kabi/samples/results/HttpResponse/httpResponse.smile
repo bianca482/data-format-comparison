@@ -1,0 +1,2 @@
+:)
+ú‰statusLineNHTTP/1.1 200 OKŠheaderLinesøSAccept-Ranges: bytesHAge: 3600IAllow: GETVCache-Control: no-cacheUConnection: keep-aliveUContent-Encoding: gzipVContent-Language: en-USSContent-Length: 1234\Content-Location: /index.htmlVContent-Type: text/htmlZDate: 2024-10-10 20:20:20.0eLocation: https://example.com/new-pageOPragma: no-cacheORetry-After: 120]Server: Apache/2.4.41 (Ubuntu)ù‹responseBodyà{"deviceId":"device1","timestamp":1728584420000,"temperature":23.1,"humidity":80.2}üû

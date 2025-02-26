@@ -1,0 +1,16 @@
+git clone https://github.com/google/flatbuffers.git
+
+Download and extract flatc binary
+https://github.com/google/flatbuffers/releases
+
+run generate.bat file
+
+or manually
+generate files
+.\flatc --java person.fbs
+.\flatc --java imageDescriptor.fbs
+.\flatc --java sensorValue.fbs
+.\flatc --java dataPacket.fbs
+.\flatc --java smartLightController.fbs
+
+and adjust package name

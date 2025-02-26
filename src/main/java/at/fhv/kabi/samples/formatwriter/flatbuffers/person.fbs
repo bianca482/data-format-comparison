@@ -1,0 +1,14 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table Person_FB {
+  fn: string;
+  bday: string;
+  gender: string;
+  adr: string;
+  email: string;
+  tel: string;
+  lang: string;
+  version: string;
+}
+
+root_type Person_FB;

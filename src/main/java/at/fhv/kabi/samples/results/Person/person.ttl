@@ -1,0 +1,13 @@
+<http://a/>  <http://a/gender>  "M";
+        <http://a/lang>     "en";
+        <http://a/version>  "4.0";
+        <http://www.w3.org/2001/vcard-rdf/3.0#ADR>
+                "1234 Elm Street, Springfield, USA";
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "1985-05-15";
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "johndoe@example.com";
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "John Doe";
+        <http://www.w3.org/2001/vcard-rdf/3.0#TEL>
+                "+1-555-1234" .

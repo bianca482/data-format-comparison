@@ -1,0 +1,8 @@
+fn = 'John Doe'
+bday = '1985-05-15'
+gender = 'M'
+adr = '1234 Elm Street, Springfield, USA'
+email = 'johndoe@example.com'
+tel = '+1-555-1234'
+lang = 'en'
+version = '4.0'

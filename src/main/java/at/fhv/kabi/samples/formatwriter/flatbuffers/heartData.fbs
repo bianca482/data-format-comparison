@@ -1,0 +1,34 @@
+namespace at.fhv.kabi.samples.formatwriter.flatbuffers;
+
+table Ecg_FB {
+    signalid: int;
+    afib: int;
+}
+
+table BloodPressure_FB {
+    diastole: int;
+    systole: int;
+}
+
+table Series_FB {
+    deviceid: string;
+    model: int;
+    ecg: Ecg_FB;
+    bloodpressure: BloodPressure_FB;
+    heart_rate: int;
+    timestamp: long;
+    timezone: string;
+}
+
+table Body_FB {
+    series: [Series_FB];
+    more: bool;
+    offset: int;
+}
+
+table HeartData_FB {
+    status: int;
+    body: Body_FB;
+}
+
+root_type HeartData_FB;

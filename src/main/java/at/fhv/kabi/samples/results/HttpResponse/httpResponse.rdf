@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://a/">
+  <rdf:Description rdf:about="http://a/">
+    <j.0:responseBody>{"deviceId":"device1","timestamp":1728584420000,"temperature":23.1,"humidity":80.2}</j.0:responseBody>
+    <j.0:headerLines rdf:parseType="Resource">
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:rest rdf:parseType="Resource">
+              <rdf:rest rdf:parseType="Resource">
+                <rdf:rest rdf:parseType="Resource">
+                  <rdf:rest rdf:parseType="Resource">
+                    <rdf:rest rdf:parseType="Resource">
+                      <rdf:rest rdf:parseType="Resource">
+                        <rdf:rest rdf:parseType="Resource">
+                          <rdf:rest rdf:parseType="Resource">
+                            <rdf:rest rdf:parseType="Resource">
+                              <rdf:rest rdf:parseType="Resource">
+                                <rdf:rest rdf:parseType="Resource">
+                                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                  <rdf:first>Server: Apache/2.4.41 (Ubuntu)</rdf:first>
+                                </rdf:rest>
+                                <rdf:first>Retry-After: 120</rdf:first>
+                              </rdf:rest>
+                              <rdf:first>Pragma: no-cache</rdf:first>
+                            </rdf:rest>
+                            <rdf:first>Location: https://example.com/new-page</rdf:first>
+                          </rdf:rest>
+                          <rdf:first>Date: 2024-10-10 20:20:20.0</rdf:first>
+                        </rdf:rest>
+                        <rdf:first>Content-Type: text/html</rdf:first>
+                      </rdf:rest>
+                      <rdf:first>Content-Location: /index.html</rdf:first>
+                    </rdf:rest>
+                    <rdf:first>Content-Length: 1234</rdf:first>
+                  </rdf:rest>
+                  <rdf:first>Content-Language: en-US</rdf:first>
+                </rdf:rest>
+                <rdf:first>Content-Encoding: gzip</rdf:first>
+              </rdf:rest>
+              <rdf:first>Connection: keep-alive</rdf:first>
+            </rdf:rest>
+            <rdf:first>Cache-Control: no-cache</rdf:first>
+          </rdf:rest>
+          <rdf:first>Allow: GET</rdf:first>
+        </rdf:rest>
+        <rdf:first>Age: 3600</rdf:first>
+      </rdf:rest>
+      <rdf:first>Accept-Ranges: bytes</rdf:first>
+    </j.0:headerLines>
+    <j.0:statusLine>HTTP/1.1 200 OK</j.0:statusLine>
+  </rdf:Description>
+</rdf:RDF>

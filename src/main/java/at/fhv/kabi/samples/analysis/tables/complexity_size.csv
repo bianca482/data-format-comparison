@@ -1,0 +1,28 @@
+Data Formats,Median Space Efficiency Rank,Usage Complexity,Usage Complexity Plus
+Avro,1.0,7,8
+CSV,2.0,0,1
+Protobuf,3.0,0,1
+XDR,4.0,4,5
+Cap'n (packed),5.0,9,10
+Thrift,6.0,9,10
+MessagePack,7.0,0,1
+CBOR,8.0,0,1
+CSV (header),8.5,0,1
+Smile,11.0,0,1
+UBJSON,13.0,4,5
+Ion,13.0,0,1
+Ion (binary),13.0,0,1
+TLV,14.0,5,6
+Cap'n (unpacked),14.0,9,10
+JSON,17.0,0,1
+FlatBuffers,17.0,9,10
+TOML,17.0,0,1
+YAML,17.0,0,1
+EXI,20.0,5,6
+FlexBuffers,21.0,4,5
+BSON,21.0,1,2
+INI,22.0,4,5
+XML,24.0,0,1
+Hessian,24.0,0,1
+RDF Turtle,26.0,4,5
+RDF,28.0,4,5

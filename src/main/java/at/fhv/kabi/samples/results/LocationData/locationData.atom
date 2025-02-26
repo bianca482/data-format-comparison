@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LocationData</title>
+  <id>urn:uuid:1</id>
+  <updated>2025-02-14T10:12:31Z</updated>
+  <entry>
+    <title>LocationData</title>
+    <author />
+    <id>urn:uuid:1</id>
+    <updated>2025-02-14T10:12:31Z</updated>
+    <content type="text">{"name":"CCIT","description":"Calgary Center for Innvative Technologies","encodingType":"application/geo+json","location":{"type":"Feature","geometry":{"type":"Point","coordinates":[13.405,52.522]}}}</content>
+  </entry>
+</feed>

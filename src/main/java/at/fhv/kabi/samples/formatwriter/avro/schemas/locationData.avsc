@@ -1,0 +1,52 @@
+{
+  "type": "record",
+  "name": "LocationData",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "encodingType",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": {
+        "type": "record",
+        "name": "Location",
+        "fields": [
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "geometry",
+            "type": {
+              "type": "record",
+              "name": "Geometry",
+              "fields": [
+                {
+                  "name": "type",
+                  "type": "string"
+                },
+                {
+                  "name": "coordinates",
+                  "type": {
+                    "type": "array",
+                    "items": "double"
+                  },
+                  "default": []
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

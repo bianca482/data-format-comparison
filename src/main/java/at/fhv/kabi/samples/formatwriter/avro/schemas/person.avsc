@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Person",
+  "namespace": "at.fhv.kabi.samples.formatwriter.avro",
+  "fields": [
+    {"name": "fn", "type": "string"},
+    {"name": "bday", "type": "string"},
+    {"name": "gender", "type": "string"},
+    {"name": "adr", "type": "string"},
+    {"name": "email", "type": "string"},
+    {"name": "tel", "type": "string"},
+    {"name": "lang", "type": "string"},
+    {"name": "version", "type": "string"}
+  ]
+}
